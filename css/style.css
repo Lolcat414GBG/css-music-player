@@ -1,0 +1,44 @@
+/** Låt denna kod vara kvar. Den kommer att ge en vit bakgrundsfärg
+ till din musikspelare när du lägger till en audio-tag i HTML:en. **/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+audio::-webkit-media-controls-panel {
+    background: #ffffff;
+}
+
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 28px #ccc;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 50px 0 30px;
+    font-size: 35px;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    color: #ccc;
+    font-size: 29px;
+    -webkit-font-smoothing: antialiased;
+}
+
+audio {
+    width: 465px;
+    height: 60px;
+    margin: 27px 0;
+    font-size: 2em;
+}
